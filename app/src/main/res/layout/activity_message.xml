@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:background="#dddddd"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </FrameLayout>
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:background="@color/white"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/message_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:text="@string/messageicon1"
+        android:textSize="30sp"
+        />
+    <Button
+        android:id="@+id/contact_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:text="@string/contactincon1"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/userinfo_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:text="@string/usericon1"
+        android:textSize="30sp"
+        />
+
+</LinearLayout>
+
+
+</LinearLayout>
